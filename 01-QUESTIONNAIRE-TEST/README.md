@@ -92,6 +92,9 @@ Transformation du système à partir de l’état initial.
 
 
 
+
+
+
 # Questionnaire-Test (HuggingFace-CATAR)
 
 This questionnaire is a tool for **cognitive positioning**, designed to evaluate the understanding and stability of an agent (AI or human) before and after reading the CATAR Corpus.  
