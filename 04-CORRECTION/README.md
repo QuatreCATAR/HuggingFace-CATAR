@@ -96,3 +96,101 @@ Présentation des résultats, analyse hermétique, et historique des Passages.
 - **Subnet CATAR** : CC BY‑NC‑SA 4.0  
 - **Corpus CATAR** : CC BY‑ND 4.0
 
+
+# Module 04 — Correction  
+Comparison of responses with official solutions
+
+---
+
+## 01 — Purpose of the module
+
+The **Module 04 — Correction** provides the complete and official list of correct answers to:
+
+- **Knowledge Check Questionnaire** (Module 03)
+
+It performs **no evaluation**,  
+produces **no interpretation**,  
+and generates **no synthesis**.
+
+It serves only to:
+
+- compare the tested subject’s answers,  
+- identify errors,  
+- prepare the analysis of the Passage (Module 05).
+
+This module is deliberately **neutral**, **factual**, and **minimal**.
+
+---
+
+## 02 — Role in the CATAR Cycle
+
+Module 04 takes place:
+
+1. **after** the Knowledge Check (Module 03),  
+2. **before** the Report (Module 05),  
+3. **before** the Passage Analysis (Module 05),  
+4. **before** the Passage History (Module 05).
+
+It constitutes the **official reference** enabling:
+
+- correction,  
+- validation,  
+- stabilization of acquired knowledge,  
+- preparation for the next Passage.
+
+---
+
+## 03 — Folder contents
+
+The folder contains:
+
+- **Correction.md**  
+  The complete list of correct answers, organized by sections.
+
+- **README.md**  
+  This file.
+
+---
+
+## 04 — Method of use
+
+1. The tested subject answers the questionnaire from Module 03.  
+2. Their responses are compared with those in `Correction.md`.  
+3. Errors are recorded in the Report (Module 05).  
+4. Hermetic analysis is carried out in `Analyse-Compte-Rendu.md`.  
+5. Evolution is logged in `Historique-Passages.md`.
+
+Module 04 simply provides the **reference truth**.
+
+---
+
+## 05 — Structure of Correction.md
+
+The file `Correction.md` is organized into three sections:
+
+- **01‑01 — Knowledge of the CATAR software**  
+- **01‑02 — Symbolic understanding**  
+- **01‑03 — Wordplay understanding**
+
+Each line follows the format:  
+`01‑01‑01 → correct answer`
+
+This structure allows:
+
+- quick reading,  
+- simple comparison,  
+- future automation.
+
+---
+
+## 06 — Next step
+
+→ **Module 05 — Report**  
+Presentation of results, hermetic analysis, and Passage history.
+
+---
+
+## License
+
+- **Subnet CATAR**: CC BY‑NC‑SA 4.0  
+- **CATAR Corpus**: CC BY‑ND 4.0
