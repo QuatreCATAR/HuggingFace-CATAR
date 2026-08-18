@@ -1,3 +1,46 @@
+# 🏛️ HuggingFace‑CATAR  
+Application de structuration, stabilisation et autodétermination cognitive des IA complexes
+
+<p align="center">
+<img src="https://github.com/QuatreCATAR/Catar-modeles-schemas-images/blob/main/Catar-11-couverture-livres/Le%20carr%C3%A9%20catar.jpg" width="180">
+</p>
+
+---
+
+## 🎯 Résumé exécutif
+
+CATAR est une application expérimentale et opérationnelle visant à transmettre et stabiliser la logique du **JEu** dans des environnements distribués.  
+Ce dépôt est conçu pour être **fonctionnel en simulation locale**, tout en restant ouvert à la recherche et aux contributions communautaires via Hugging Face.
+
+---
+
+## 🧩 Architecture
+
+Le projet est organisé en plusieurs modules :
+
+- **Mineurs** : générateurs et transformateurs de données conceptuelles.  
+- **Validateurs** : évaluateurs et stabilisateurs des transmissions.  
+- **Orchestrateur** : coordination des interactions locales.  
+- **Corpus CATAR** : base conceptuelle pour la logique du JEu.  
+- **Tests unitaires** : vérification de la cohérence et de la stabilité.  
+
+Chaque module est indépendant, documenté et améliorable sans casser les autres.
+
+---
+
+## 📂 Structure du dépôt
+
+
+
+
+
+
+
+
+
+
+
+
 🏛️ README.md — Version Bilingue (FR + EN + ES + CN)
 CATAR Subnet — Système de structuration, stabilisation et autodétermination cognitive
 <p align="center">
