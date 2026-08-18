@@ -54,6 +54,7 @@ Clonez le dépôt et installez les dépendances :
 git clone https://github.com/QuatreCATAR/HuggingFace-CATAR.git
 cd HuggingFace-CATAR
 pip install -r requirements.txt
+```
 
 ▶️ Utilisation
 Lancez le mineur et le validateur en simulation locale :
@@ -152,6 +153,7 @@ Clone the repository and install dependencies:
 git clone https://github.com/QuatreCATAR/HuggingFace-CATAR.git
 cd HuggingFace-CATAR
 pip install -r requirements.txt
+```
 
 ▶️ Usage
 Run the miner and validator in local simulation:
@@ -250,6 +252,7 @@ Clonar el repositorio e instalar las dependencias:
 git clone https://github.com/QuatreCATAR/HuggingFace-CATAR.git
 cd HuggingFace-CATAR
 pip install -r requirements.txt
+```
 
 ▶️ Uso
 Ejecutar el minero y el validador en simulación local:
@@ -348,6 +351,7 @@ HuggingFace-CATAR/
 git clone https://github.com/QuatreCATAR/HuggingFace-CATAR.git
 cd HuggingFace-CATAR
 pip install -r requirements.txt
+```
 
 ▶️ 使用方法
 在本地模拟模式下运行矿工和验证者：
