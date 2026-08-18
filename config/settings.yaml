@@ -1,0 +1,40 @@
+# settings.yaml
+# Configuration globale du Subnet CATAR — version adaptée à ta structure GitHub
+
+catar:
+  corpus_path: "02-CORPUS-CATAR/Le-Carre-CATAR.md"
+  correction_path: "04-CORRECTION/Correction.md"
+
+miner:
+  name: "catar-miner"
+  log_dir: "logs/miner/"
+  network: "finney"
+  axon_port: 8091
+  hotkey: "default"
+  coldkey: "default"
+
+validator:
+  name: "catar-validator"
+  log_dir: "logs/validator/"
+  network: "finney"
+  hotkey: "default"
+  coldkey: "default"
+
+passage:
+  enable_control: true
+  enable_correction: true
+  enable_analysis: true
+
+analysis:
+  weight_moije_soije: 1.0
+  weight_absolu_relatif: 1.0
+  weight_dphi: 1.0
+
+compte_rendu:
+  output_dir: "reports/"
+  format: "markdown"
+
+general:
+  logs_enabled: true
+  debug_mode: false
+  version: "1.0"
