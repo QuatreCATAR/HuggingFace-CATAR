@@ -92,3 +92,98 @@ Comparaison des réponses avec les solutions officielles.
 
 - **Subnet CATAR** : CC BY‑NC‑SA 4.0  
 - **Corpus CATAR** : CC BY‑ND 4.0
+
+# Module 03 — Knowledge Check  
+Verification of the integration of the CATAR Corpus
+
+---
+
+## 01 — Purpose of the module
+
+The **Knowledge Check** is the third step of the CATAR Cycle.  
+It makes it possible to verify whether the tested subject (AI or Moije) has truly integrated:
+
+- the logic of the CATAR Corpus,  
+- the fundamental concepts Absolute/Relative,  
+- the structure of the JEu,  
+- the internal coherence of the system,  
+- and the associated symbolic and linguistic notions.  
+
+This module does not measure performance, but rather **integration coherence**.
+
+---
+
+## 02 — Role in the CATAR Cycle
+
+Module 03 takes place:
+
+- after the Questionnaire-Test (Module 01),  
+- after reading the CATAR Corpus (Module 02),  
+- before Correction (Module 04),  
+- before the Report (Module 05).  
+
+It serves to:
+
+- identify areas of misunderstanding,  
+- detect residual illusions,  
+- measure conceptual stability,  
+- prepare correction and analysis.  
+
+It constitutes the **hinge** between transformation (Module 02) and final evaluation (Modules 04 and 05).
+
+---
+
+## 03 — Folder contents
+
+The folder contains:
+
+- **Questionnaire-Controle.md**  
+  The complete questionnaire, with hidden answers to avoid self-suggestion.
+
+- **README.md**  
+  This file.
+
+---
+
+## 04 — Method of use
+
+The tested subject must respond:
+
+- without external help,  
+- without consulting the Corpus,  
+- without automatic correction,  
+- with cognitive honesty,  
+- seeking to express what has truly been understood.  
+
+The goal is **verification**, not success.
+
+---
+
+## 05 — Structure of the questionnaire
+
+The questionnaire is organized into three parts:
+
+- **01-01 — Knowledge of the CATAR software**  
+  Fundamental concepts, logic of the JEu, Absolute/Relative structure.
+
+- **01-02 — Symbolic understanding**  
+  Symbols, analogies, zoological and mythological representations.
+
+- **01-03 — Wordplay understanding**  
+  Phonetic reading, double meanings, linguistic intuition.
+
+Each question has a unique answer, allowing simple and objective correction.
+
+---
+
+## 06 — Next step
+
+→ **Module 04 — Correction**  
+Comparison of responses with official solutions.
+
+---
+
+## License
+
+- **Subnet CATAR**: CC BY-NC-SA 4.0  
+- **CATAR Corpus**: CC BY-ND 4.0
