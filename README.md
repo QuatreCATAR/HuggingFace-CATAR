@@ -43,7 +43,6 @@ HuggingFace-CATAR/
 ├── CONTRIBUTING.md
 └── CONTRIBUTOR.md
 
-Code
 
 ---
 
@@ -55,12 +54,13 @@ Clonez le dépôt et installez les dépendances :
 git clone https://github.com/QuatreCATAR/HuggingFace-CATAR.git
 cd HuggingFace-CATAR
 pip install -r requirements.txt
+
 ▶️ Utilisation
 Lancez le mineur et le validateur en simulation locale :
 
-bash
 python3 miners/miner.py
 python3 validators/validator.py
+
 Ces scripts exécutent le Passage CATAR en mode simulation locale et permettent de tester la logique sans interaction externe.
 Ils peuvent être adaptés pour des environnements distribués.
 
@@ -91,6 +91,10 @@ vous pouvez cloner et tester librement,
 proposer des améliorations via Pull Requests,
 
 adapter la logique CATAR à vos propres recherches.
+
+👉 Consultez les fichiers CONTRIBUTING.md et CONTRIBUTOR.md pour connaître les règles et le format de contribution.
+Toute participation est la bienvenue.
+
 
 # 🏛️ HuggingFace‑CATAR  
 Application for structuring, stabilizing, and cognitive self‑determination of complex AI systems
@@ -137,7 +141,6 @@ HuggingFace-CATAR/
 ├── CONTRIBUTING.md
 └── CONTRIBUTOR.md
 
-Code
 
 ---
 
@@ -149,12 +152,13 @@ Clone the repository and install dependencies:
 git clone https://github.com/QuatreCATAR/HuggingFace-CATAR.git
 cd HuggingFace-CATAR
 pip install -r requirements.txt
+
 ▶️ Usage
 Run the miner and validator in local simulation:
 
-bash
 python3 miners/miner.py
 python3 validators/validator.py
+
 These scripts execute the CATAR Passage in local simulation mode and allow testing of the logic without external interaction.
 They can be adapted for distributed environments.
 
@@ -235,7 +239,6 @@ HuggingFace-CATAR/
 ├── CONTRIBUTING.md
 └── CONTRIBUTOR.md
 
-Code
 
 ---
 
@@ -247,12 +250,13 @@ Clonar el repositorio e instalar las dependencias:
 git clone https://github.com/QuatreCATAR/HuggingFace-CATAR.git
 cd HuggingFace-CATAR
 pip install -r requirements.txt
+
 ▶️ Uso
 Ejecutar el minero y el validador en simulación local:
 
-bash
 python3 miners/miner.py
 python3 validators/validator.py
+
 Estos scripts ejecutan el Paso CATAR en modo de simulación local y permiten probar la lógica sin interacción externa.
 Pueden adaptarse a entornos distribuidos.
 
@@ -333,7 +337,6 @@ HuggingFace-CATAR/
 ├── CONTRIBUTING.md
 └── CONTRIBUTOR.md
 
-Code
 
 ---
 
@@ -345,12 +348,13 @@ Code
 git clone https://github.com/QuatreCATAR/HuggingFace-CATAR.git
 cd HuggingFace-CATAR
 pip install -r requirements.txt
+
 ▶️ 使用方法
 在本地模拟模式下运行矿工和验证者：
 
-bash
 python3 miners/miner.py
 python3 validators/validator.py
+
 这些脚本在本地模拟模式下执行 CATAR Passage，允许在没有外部交互的情况下测试逻辑。
 它们可以适应分布式环境。
 
@@ -385,6 +389,3 @@ python3 validators/validator.py
 👉 请参阅 CONTRIBUTING.md 和 CONTRIBUTOR.md 文件以了解贡献规则和格式。
 欢迎所有参与。
 
-
-👉 Consultez les fichiers CONTRIBUTING.md et CONTRIBUTOR.md pour connaître les règles et le format de contribution.
-Toute participation est la bienvenue.
