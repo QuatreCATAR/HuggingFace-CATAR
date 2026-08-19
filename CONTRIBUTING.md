@@ -1,6 +1,6 @@
 # CONTRIBUTING.md  
 Guide officiel pour contribuer à HuggingFace‑CATAR  
-Version 1.1 — Philosophie, règles et processus
+Version 1.2 — Philosophie, règles et processus
 
 ---
 
@@ -19,7 +19,7 @@ Chaque contribution vise à renforcer :
 - la cohérence du Corpus,  
 - la qualité du code,  
 - l’autonomie de l’application,  
-- la rétribution et reconnaissance des contributeurs.  
+- la reconnaissance des contributeurs.  
 
 ---
 
@@ -69,12 +69,13 @@ Créez une copie personnelle du projet :
 Fork → votre compte GitHub
 ```
 
-Étape 2 — Créer une branche dédiée
+### Étape 2 — Créer une branche dédiée
 Chaque amélioration doit être faite dans une branche séparée :
 
 bash
 git checkout -b feature-nom-de-la-fonction
-Étape 3 — Faire des commits clairs
+
+### Étape 3 — Faire des commits clairs
 Utilisez des messages explicites :
 
 bash
@@ -82,7 +83,8 @@ feat: ajout du validator minimal
 fix: correction du Passage CATAR
 docs: mise à jour du glossaire
 test: ajout des tests Ubuntu
-Étape 4 — Tester votre contribution
+
+### Étape 4 — Tester votre contribution
 Avant de proposer une modification :
 
 vérifiez que le code s’exécute,
@@ -91,7 +93,7 @@ que les tests passent,
 
 que la documentation reste cohérente.
 
-Étape 5 — Soumettre une Pull Request
+### Étape 5 — Soumettre une Pull Request
 Depuis votre dépôt :
 
 bash
@@ -106,7 +108,7 @@ comment cela améliore l’application,
 
 et comment tester votre contribution.
 
-04 — Règles de cohérence
+## 04 — Règles de cohérence
 Pour garantir la stabilité du projet :
 
 ✔ Respecter la logique du Passage CATAR
@@ -150,7 +152,7 @@ modulaire,
 
 extensible.
 
-05 — Rétribution et reconnaissance
+## 05 — Rétribution et reconnaissance
 Le projet est conçu pour rétribuer et reconnaître ceux qui l’améliorent.
 
 ✔ Rétribution conceptuelle
@@ -168,7 +170,7 @@ Open Collective
 
 DAO
 
-06 — Code de conduite
+## 06 — Code de conduite
 Les contributeurs doivent :
 
 respecter les autres,
@@ -183,7 +185,7 @@ tester leurs modifications,
 
 maintenir la cohérence du projet.
 
-07 — Questions / Support
+## 07 — Questions / Support
 Pour toute question :
 
 ouvrez une Issue sur GitHub,
