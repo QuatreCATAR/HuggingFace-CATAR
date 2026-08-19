@@ -18,6 +18,8 @@ Version 1.0 — Simulation locale et utilisation libre
 ```bash
 git clone https://github.com/QuatreCATAR/HuggingFace-CATAR.git
 cd HuggingFace-CATAR
+```
+
 03 — Installer les dépendances Python
 bash
 pip install -r requirements.txt
