@@ -48,6 +48,7 @@ Exécution des tests :
 
 bash
 pytest tests/
+
 06 — Documentation complémentaire
 [Il semble que le résultat n’était pas sûr à afficher. Changeons un peu et essayons autre chose !] — présentation générale
 
