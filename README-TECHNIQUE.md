@@ -153,3 +153,159 @@ garder le code simple et lisible,
 assurer la transmissibilité du projet.
 
 
+# README‑TECHNIQUE.md  
+Technical Documentation — HuggingFace‑CATAR  
+Version 1.1 — Architecture, modules, and execution
+
+---
+
+## 01 — Purpose
+
+This document provides a detailed technical description of the **HuggingFace‑CATAR** project.  
+It is intended for developers and contributors to:  
+- understand the internal architecture,  
+- master conceptual and technical modules,  
+- correctly run the miner and validator,  
+- respect the conceptual invariants of the CATAR Corpus.
+
+---
+
+## 02 — General Architecture
+
+The project is structured into two complementary sets:
+
+### Technical modules
+- `miners/`: generation and transformation of conceptual data  
+- `validators/`: evaluation and stabilization of transmissions  
+- `scripts/`: automation, supervision, and parallel execution  
+- `config/`: parameters and configuration (`settings.yaml`)  
+- `tests/`: unit and conceptual tests  
+- `catar_core/`: technical core and internal logic  
+
+### Conceptual modules
+- **01 — Questionnaire‑Test**  
+- **02 — CATAR Corpus**  
+- **03 — Knowledge Control**  
+- **04 — Correction**  
+- **05 — Report / Hermetic Analysis**
+
+---
+
+## 03 — CATAR Miner
+
+The miner is minimal viable:  
+- generates conceptual data,  
+- respects the logic of the CATAR Passage,  
+- remains neutral and unbiased,  
+- optionally interacts with subtensor.  
+
+Local execution:  
+```bash
+python3 miners/miner.py
+```
+
+## 04 — CATAR Validator
+The validator is conceptual and neutral:
+
+evaluates coherence of transmissions,
+
+respects Corpus invariants,
+
+explicitly uses settings.yaml for configuration.
+
+Local execution:
+
+bash
+python3 validators/validator.py
+
+## 05 — Scripts
+Scripts provide:
+
+parallel module execution,
+
+log management,
+
+supervision,
+
+automatic restart in case of error.
+
+## 06 — Configuration
+The file config/settings.yaml contains:
+
+module paths,
+
+execution parameters,
+
+subtensor configuration (optional).
+
+The validator explicitly uses this file to ensure reproducibility.
+
+## 07 — Tests
+Tests are organized in tests/:
+
+conceptual tests (Passage logic),
+
+coherence tests,
+
+cognitive stability tests,
+
+technical unit tests.
+
+Execution:
+
+bash
+pytest tests/
+
+## 08 — Subtensor Integration (optional)
+The project can be connected to subtensor for:
+
+emission activation,
+
+voluntary locking,
+
+challenge,
+
+maturation.
+
+Useful commands:
+
+bash
+btcli wallet new
+btcli stake add
+btcli run miner
+btcli run validator
+
+## 09 — Internal Economy
+The economic model is based on symmetry:
+
+50% validators
+
+50% miners
+
+⚠️ In HuggingFace‑CATAR, this model is neutralized: it serves only as a conceptual reference.
+
+## 10 — Technical Roadmap
+Main phases:
+
+subnet stabilization,
+
+governance by conviction,
+
+automated Passage,
+
+Novelty Search.
+
+See ROADMAP.md for full details.
+
+## 11 — Best Practices
+respect conceptual invariants,
+
+never modify the CATAR Corpus,
+
+document every addition,
+
+write reproducible tests,
+
+keep code simple and readable,
+
+ensure project transmissibility.
