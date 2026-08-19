@@ -23,6 +23,7 @@ cd HuggingFace-CATAR
 03 — Installer les dépendances Python
 bash
 pip install -r requirements.txt
+
 04 — Lancer l’application en simulation locale
 Miner (production de réponses conceptuelles)
 bash
