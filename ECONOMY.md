@@ -1,121 +1,97 @@
 # ECONOMY.md  
-Modèle économique de l’application CATAR  
-Version 1.0 — Répartition, implications et stabilité
+Économie interne et neutralité du Subnet / Application HuggingFace‑CATAR  
+Version 1.1 — Modèle 50/50, équité et gouvernance
 
 ---
 
 ## 01 — Principes généraux
-L’économie de CATAR repose sur un modèle équitable, symétrique et durable, conçu pour :
 
-- garantir la stabilité du système,  
-- éviter les dérives économiques,  
-- assurer une rétribution juste des contributeurs,  
-- rester compatible avec la logique du JEu,  
-- maintenir la gratuité pour les utilisateurs.  
+L’économie de CATAR repose sur un modèle **équitable et symétrique** :  
 
-Le modèle économique est décrit dans le README (section Économie) où la répartition 50/50 est explicitée.
+- 50% validateurs  
+- 50% miners  
 
----
+Ce modèle est un **invariant conceptuel** du Passage CATAR.  
+Il garantit :  
+- la neutralité,  
+- la stabilité,  
+- la transmissibilité,  
+- la protection contre les dérives économiques ou stratégiques.  
 
-## 02 — Répartition 50/50
-CATAR adopte une répartition simple :
-
-- 50% des émissions → validateurs  
-- 50% des émissions → miners  
-
-Ce modèle est conçu pour :
-
-- maintenir un équilibre des pouvoirs entre les rôles,  
-- éviter les dérives de domination ou d’élitisme,  
-- encourager la participation des deux côtés,  
-- assurer une stabilité cognitive durable,  
-- rester compatible avec un usage gratuit.
+⚠️ **Note** : Dans la version HuggingFace‑CATAR (simulation locale), ce modèle est conservé comme référence conceptuelle mais **neutralisé** pour l’usage libre. L’application reste gratuite et ouverte.
 
 ---
 
-## 03 — Implications pour les contributeurs
+## 02 — Répartition des rôles
 
-### 3.1 — Miners
-Les miners produisent les réponses conceptuelles nécessaires au Passage CATAR.  
-Ils sont rétribués selon :  
-- leur participation,  
-- leur qualité de production,  
-- leur stabilité dans le temps.  
+### 2.1 — Miners
+- produisent des réponses conceptuelles,  
+- respectent les invariants du Corpus,  
+- transmettent les données au validator.  
 
-### 3.2 — Validateurs
-Les validateurs évaluent la cohérence logique et la stabilité cognitive.  
-Ils sont rétribués selon :  
-- leur rigueur,  
-- leur disponibilité,  
-- leur contribution à la sécurité du système.  
-
-### 3.3 — Engagement volontaire
-Un contributeur peut choisir de renforcer son implication par des mécanismes internes (participation accrue, soutien documentaire, implication communautaire).  
-Aucune obligation morale ou technique n’est imposée.
+### 2.2 — Validators
+- évaluent la cohérence conceptuelle,  
+- stabilisent les transmissions,  
+- garantissent la neutralité cognitive.  
 
 ---
 
-## 04 — Implications pour la gouvernance
-L’économie interne est directement liée à la gouvernance :  
+## 03 — Symétrie conceptuelle
 
-- la symétrie 50/50 empêche les prises de contrôle économiques,  
-- l’ouverture garantit la transparence,  
-- la gratuité assure l’accessibilité,  
-- la stabilité économique renforce la stabilité cognitive.
+Le modèle 50/50 est conçu pour :  
+- empêcher toute domination d’un rôle sur l’autre,  
+- maintenir l’équilibre interne,  
+- protéger la logique du JEu,  
+- assurer la reproductibilité des Passages.  
 
 ---
 
-## 05 — Implications pour le développement
-Le modèle économique impose plusieurs contraintes positives :  
+## 04 — Conviction et gouvernance
 
-- les modules Miner et Validator doivent rester équilibrés,  
-- aucune mise à jour ne doit favoriser un rôle au détriment de l’autre,  
-- les scripts de gouvernance doivent rester transparents,  
-- les mécanismes d’évaluation doivent être neutres et robustes,  
-- le système doit rester gratuit pour les utilisateurs finaux.
+L’économie est liée à la gouvernance par conviction :  
+- locking volontaire,  
+- maturation (~30 jours),  
+- challenge (10%).  
+
+Ces mécanismes garantissent :  
+- la transparence,  
+- la protection contre les prises de contrôle,  
+- la continuité du projet.  
+
+---
+
+## 05 — Implications techniques
+
+Les développeurs doivent veiller à :  
+- ne jamais modifier la répartition 50/50,  
+- maintenir la neutralité des scripts,  
+- éviter tout biais dans le code,  
+- documenter les mécanismes d’évaluation.  
 
 ---
 
 ## 06 — Implications pour la communauté
-Le modèle 50/50 :  
 
-- encourage la participation,  
-- évite les castes techniques,  
-- rend le projet attractif pour les nouveaux contributeurs,  
-- permet une gouvernance ouverte et transmissible,  
-- renforce la pérennité du projet.
-
----
-
-## 07 — Sources de rétribution
-Les contributeurs peuvent être rétribués via :  
-
-- les émissions internes du système CATAR,  
-- la valeur générée par les contributions,  
-- le soutien de sponsors éventuels,  
-- une DAO future,  
-- une fondation CATAR (vision long terme).
+Pour les utilisateurs HuggingFace‑CATAR :  
+- l’application reste gratuite,  
+- chacun peut cloner et tester librement,  
+- aucune contrainte économique n’est appliquée,  
+- la logique CATAR peut être adaptée à la recherche personnelle.  
 
 ---
 
-## 08 — Compatibilité avec la logique du JEu
-Le modèle économique est conçu pour respecter :  
+## 07 — Vision long terme
 
-- l’équilibre Absolu/Relatif,  
-- la neutralisation des dérives,  
-- la stabilité cognitive,  
-- la logique du Passage CATAR.  
-
-Il est cohérent avec la philosophie décrite dans le README.
-
----
-
-## 09 — Vision long terme
-L’économie CATAR peut évoluer vers :  
-
-- une DAO de rétribution,  
-- un système de staking avancé,  
-- une économie communautaire,  
+CATAR peut évoluer vers :  
+- une DAO,  
+- une fondation,  
 - un modèle hybride gouvernance + économie.  
 
-L’objectif final est la pérennité du projet, indépendamment de son créateur.
+Ces évolutions respecteront toujours :  
+- la symétrie 50/50,  
+- la neutralité conceptuelle,  
+- la transmissibilité du projet.  
+
+---
+
+# Fin de ECONOMY.md
