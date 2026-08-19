@@ -66,6 +66,8 @@ Code
 git clone https://github.com/RaoFoundation/subtensor.git
 cd subtensor
 cargo build --release
+```
+
 3.2 — Cloner le Subnet CATAR
 bash
 git clone https://github.com/QuatreCATAR/catar-subnet.git
