@@ -57,7 +57,7 @@ cd HuggingFace-CATAR
 pip install -r requirements.txt
 ```
 
-▶️ Utilisation
+## ▶️ Utilisation
 Lancez le mineur et le validateur en simulation locale :
 
 bash
@@ -66,7 +66,7 @@ python3 validators/validator.py
 Ces scripts exécutent le Passage CATAR en mode simulation locale et permettent de tester la logique sans interaction externe.
 Ils peuvent être adaptés pour des environnements distribués.
 
-🧪 Tests
+## 🧪 Tests
 Des tests unitaires sont disponibles dans le dossier tests/.
 Ils permettent de vérifier :
 
@@ -76,7 +76,7 @@ la stabilité des interactions locales,
 
 la reproductibilité des résultats.
 
-🚀 Roadmap
+## 🚀 Roadmap
 Version 1.0 : première mouture fonctionnelle (simulation locale).
 
 Version 1.1 : enrichissement du Corpus CATAR.
@@ -85,7 +85,7 @@ Version 2.0 : ouverture à la communauté Hugging Face pour contributions.
 
 La feuille de route complète est disponible dans le fichier ROADMAP.md.
 
-🤝 Contribution
+## 🤝 Contribution
 Ce projet est ouvert à la communauté :
 
 vous pouvez cloner et tester librement,
@@ -93,6 +93,7 @@ vous pouvez cloner et tester librement,
 proposer des améliorations via Pull Requests,
 
 adapter la logique CATAR à vos propres recherches.
+
 
 👉 Consultez les fichiers CONTRIBUTING.md et CONTRIBUTOR.md pour connaître les règles et le format de contribution.
 👉 Consultez GLOSSAIRE.md pour les définitions des termes conceptuels.
