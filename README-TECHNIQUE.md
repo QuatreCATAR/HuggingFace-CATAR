@@ -1,277 +1,155 @@
-# 📄 README‑TECHNIQUE.md  
-Guide technique pour développeurs — Subnet CATAR  
-Version 1.1 — Architecture, modules, exécution, intégration subtensor
+# README‑TECHNIQUE.md  
+Documentation technique — HuggingFace‑CATAR  
+Version 1.1 — Architecture, modules et exécution
 
 ---
 
-## 01 — Introduction technique
+## 01 — Objectif
 
-Le Subnet CATAR est un subnet Bittensor conçu pour :  
-
-- produire des réponses conceptuelles (**miner**)  
-- évaluer la cohérence logique et cognitive (**validator**)  
-- stabiliser la cognition via le Passage CATAR (modules 01 → 05)  
-- fonctionner avec une économie interne 50/50 (miners/validators)  
-- être gouverné par conviction (locking volontaire)  
-
-Ce document fournit toutes les informations nécessaires aux développeurs pour comprendre, modifier, étendre ou intégrer le Subnet CATAR.
+Ce document fournit une description technique détaillée du projet **HuggingFace‑CATAR**.  
+Il est destiné aux développeurs et contributeurs afin de :  
+- comprendre l’architecture interne,  
+- maîtriser les modules conceptuels et techniques,  
+- exécuter correctement le miner et le validator,  
+- respecter les invariants conceptuels du Corpus CATAR.
 
 ---
 
-## 02 — Architecture technique du dépôt
+## 02 — Architecture générale
 
-Structure réelle du dépôt :  
-
-01-QUESTIONNAIRE-TEST/
-02-CORPUS-CATAR/
-03-CONTROLE-CONNAISSANCE/
-04-CORRECTION/
-05-COMPTE-RENDU/
-catar_core/
-config/
-miners/
-validator/
-scripts/
-tests/
-docs/
-requirements.txt
-README.md
-ROADMAP.md
-INSTALLATION.md
-GOVERNANCE.md
-ECONOMY.md
-SECURITY.md
-VERSION.md
-
-Code
+Le projet est structuré en deux ensembles complémentaires :
 
 ### Modules techniques
-- `miners/` — Miner CATAR minimal viable  
-- `validator/` — Validator conceptuel  
-- `scripts/` — Lancement parallèle miner + validator  
-- `config/` — `settings.yaml` (chemins, paramètres)  
-- `tests/` — tests unitaires et conceptuels  
-- `catar_core/` — logique interne CATAR (compte‑rendu, analyse)  
+- `miners/` : génération et transformation de données conceptuelles  
+- `validators/` : évaluation et stabilisation des transmissions  
+- `scripts/` : automatisation, supervision et lancement parallèle  
+- `config/` : paramètres et configuration (`settings.yaml`)  
+- `tests/` : tests unitaires et conceptuels  
+- `catar_core/` : noyau technique et logique interne  
 
 ### Modules conceptuels
-- `01 → 05` : Passage CATAR complet (Test → Corpus → Contrôle → Correction → Compte‑Rendu)  
+- **01 — Questionnaire‑Test**  
+- **02 — Corpus CATAR**  
+- **03 — Contrôle de Connaissance**  
+- **04 — Correction**  
+- **05 — Compte‑Rendu / Analyse hermétique**
 
 ---
 
-## 03 — Installation technique
+## 03 — Miner CATAR
 
-### 3.1 — Installer Subtensor (RaoFoundation)
+Le miner est minimal viable :  
+- génère des données conceptuelles,  
+- respecte la logique du Passage CATAR,  
+- reste neutre et sans biais conceptuel,  
+- interagit avec subtensor (optionnel).  
 
+Exécution locale :  
 ```bash
-git clone https://github.com/RaoFoundation/subtensor.git
-cd subtensor
-cargo build --release
-```
-
-3.2 — Cloner le Subnet CATAR
-bash
-git clone https://github.com/QuatreCATAR/catar-subnet.git
-cd catar-subnet
-3.3 — Installer les dépendances Python
-bash
-pip install -r requirements.txt
-04 — Miner CATAR (/miners)
-4.1 — Lancement
-bash
 python3 miners/miner.py
-4.2 — Rôle technique
-écoute subtensor
+```
+## 04 — Validator CATAR
+Le validator est conceptuel et neutre :
 
-reçoit une question
+évalue la cohérence des transmissions,
 
-génère une réponse conceptuelle
+respecte les invariants du Corpus,
 
-transmet au validator
+utilise explicitement settings.yaml pour la configuration.
 
-respecte les invariants conceptuels du Corpus
+Exécution locale :
+python3 validators/validator.py
 
-4.3 — Contraintes
-pas de dérives cognitives
+## 05 — Scripts
+Les scripts permettent :
 
-pas de stratégie de domination
+lancement parallèle des modules,
 
-pas de modification du Passage
+gestion des logs,
 
-neutralité conceptuelle
+supervision,
 
-05 — Validator CATAR (/validator)
-5.1 — Lancement
+redémarrage automatique en cas d’erreur.
+
+## 06 — Configuration
+Le fichier config/settings.yaml contient :
+
+chemins des modules,
+
+paramètres d’exécution,
+
+configuration subtensor (optionnelle).
+
+Le validator utilise explicitement ce fichier pour garantir la reproductibilité.
+
+## 07 — Tests
+Les tests sont organisés dans tests/ :
+
+tests conceptuels (logique du Passage),
+
+tests de cohérence,
+
+tests de stabilité cognitive,
+
+tests unitaires techniques.
+
+Exécution :
+
 bash
-python3 validator/validator.py
-5.2 — Rôle technique
-écoute subtensor
+pytest tests/
 
-reçoit la réponse du miner
+## 08 — Intégration subtensor (optionnelle)
+Le projet peut être relié à subtensor pour :
 
-compare au Corpus CATAR
+activation des émissions,
 
-détecte les dérives conceptuelles
+locking volontaire,
 
-attribue un score cognitif
+challenge,
 
-renvoie l’évaluation au réseau
-
-5.3 — Contraintes
-neutralité totale
-
-reproductibilité
-
-respect strict du Corpus
-
-aucune influence sur le miner
-
-06 — Scripts (/scripts)
-Exemple de lancement parallèle :
-
-bash
-python3 scripts/run_parallel.py
-Fonctions typiques :
-
-gestion des processus
-
-logs
-
-redémarrage automatique
-
-supervision minimale
-
-07 — Configuration (/config)
-Le fichier settings.yaml contient :
-
-chemins des modules
-
-paramètres du miner
-
-paramètres du validator
-
-options de logging
-
-configuration subtensor
-
-Le validator utilise explicitement ce fichier.
-
-08 — Tests (/tests)
-Tests inclus :
-
-tests de compréhension
-
-tests conceptuels
-
-tests de cohérence
-
-tests de stabilité cognitive
-
-À ajouter par les développeurs :
-
-tests unitaires pour miner
-
-tests unitaires pour validator
-
-tests d’intégration subtensor
-
-tests de Passage CATAR automatisé (phase 3 de la roadmap)
-
-09 — Intégration subtensor
-Le Subnet CATAR est compatible avec subtensor (RaoFoundation) :
-
-activation des émissions
-
-locking volontaire
-
-challenge 10%
-
-maturation ~30 jours
+maturation.
 
 Commandes utiles :
 
 bash
-subtensor subnet set-emission --netuid <ID>
-subtensor stake lock --amount <TAO>
-10 — Économie interne (50/50)
-Le Subnet CATAR utilise un modèle économique équitable :
+btcli wallet new
+btcli stake add
+btcli run miner
+btcli run validator
+
+## 09 — Économie interne
+Le modèle économique est basé sur la symétrie :
 
 50% validateurs
 
 50% miners
 
-Implications techniques :
+⚠️ Dans HuggingFace‑CATAR, ce modèle est neutralisé : il sert uniquement de référence conceptuelle.
 
-pas de biais dans le code
+## 10 — Roadmap technique
+Phases principales :
 
-pas de mécanisme favorisant un rôle
+stabilisation du subnet,
 
-neutralité des scripts
+gouvernance par conviction,
 
-transparence des évaluations
+Passage automatisé,
 
-11 — Gouvernance technique
-La gouvernance repose sur :
+Novelty Search.
 
-conviction (locking volontaire)
+Voir ROADMAP.md pour le détail complet.
 
-maturation (~30 jours)
+## 11 — Bonnes pratiques
+respecter les invariants conceptuels,
 
-seuil de challenge (10%)
+ne jamais modifier le Corpus CATAR,
 
-protection contre les prises de contrôle externes
+documenter chaque ajout,
 
-Les développeurs doivent :
+écrire des tests reproductibles,
 
-respecter la modularité
+garder le code simple et lisible,
 
-documenter chaque modification
+assurer la transmissibilité du projet.
 
-éviter les dérives économiques
 
-maintenir la transmissibilité du projet
-
-12 — Roadmap technique
-Phase 1 — Stabilisation
-miner minimal viable
-
-validator conceptuel
-
-documentation multilingue
-
-économie 50/50
-
-Phase 2 — Gouvernance
-activation des émissions
-
-gestion du locking
-
-sécurisation de la propriété
-
-Phase 3 — Passage CATAR automatisé
-intégration complète du Corpus
-
-analyse automatique
-
-historique des Passages
-
-Phase 4 — Novelty Search
-démonstration conceptuelle
-
-publication officielle
-
-13 — Bonnes pratiques pour développeurs
-respecter les invariants conceptuels
-
-ne jamais modifier le Passage CATAR
-
-documenter chaque module
-
-ajouter des tests systématiquement
-
-maintenir la neutralité du miner et du validator
-
-éviter les dépendances inutiles
-
-garder le code lisible et transmissible
-
-respecter la gouvernance par conviction
