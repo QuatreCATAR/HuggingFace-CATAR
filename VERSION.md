@@ -1,110 +1,105 @@
 # VERSION.md  
-Historique des versions du Subnet CATAR  
-Version bilingue : Français + English
+Historique officiel des versions — HuggingFace‑CATAR  
+Version 1.0 — Traçabilité et continuité
 
 ---
 
-# 🇫🇷 Version 1.0.0 — Première publication du Subnet CATAR  
-**Date :** 2026‑06‑27  
-**Statut :** Stable  
-**Type :** Première release publique
+## 01 — Objectif
 
-## 01 — Description générale  
-Cette version constitue la première publication complète et fonctionnelle du **Subnet CATAR**.  
-Elle inclut l’ensemble des modules nécessaires pour réaliser un **Passage CATAR** du début à la fin, ainsi que la documentation essentielle pour comprendre et utiliser le système.
-
-## 02 — Contenu de la version  
-Cette version inclut :
-
-### ✔ Modules complets  
-- **Module 01 — Questionnaire‑Test**  
-- **Module 02 — Corpus CATAR** (Markdown + PDF)  
-- **Module 03 — Contrôle de Connaissance**  
-- **Module 04 — Correction**  
-- **Module 05 — Compte‑Rendu**  
-  - Résultats  
-  - Analyse  
-  - Historique des Passages  
-
-### ✔ Documentation  
-- README racine multilingue (FR + EN + ES + CN)  
-- README de chaque module (01 → 05)  
-- Cycle‑CATAR.md (logique du Passage)  
-
-### ✔ Structure du Passage  
-- Test initial  
-- Lecture du Corpus  
-- Contrôle de Connaissance  
-- Correction  
-- Analyse  
-- Historique  
-- Rebouclage vers un nouveau Passage  
-
-## 03 — Objectif de la version  
-- Fournir une base stable et utilisable du subnet  
-- Permettre la réalisation complète d’un Passage CATAR  
-- Offrir une documentation claire pour les nouveaux utilisateurs  
-- Préparer les futures évolutions (v1.1, v2.0, etc.)
-
-## 04 — Prochaines étapes (prévisionnel)  
-- Ajout d’un **Guide du Passage**  
-- Ajout d’un **Glossaire CATAR**  
-- Ajout d’un **INSTALLATION.md**  
-- Traduction progressive du Corpus  
-- Ajout de schémas et diagrammes  
-- Préparation d’une version API / automatisée
+Ce fichier recense les différentes versions de l’application **HuggingFace‑CATAR**, afin de :  
+- assurer la traçabilité,  
+- garantir la continuité,  
+- documenter les évolutions,  
+- transmettre l’historique du projet.  
 
 ---
 
-# 🇬🇧 Version 1.0.0 — First public release of the CATAR Subnet  
-**Date:** 2026‑06‑27  
-**Status:** Stable  
-**Type:** Initial public release
+## 02 — Format des entrées
 
-## 01 — Overview  
-This version is the first complete and functional publication of the **CATAR Subnet**.  
-It includes all modules required to perform a full **CATAR Passage**, along with essential documentation for understanding and using the system.
+Chaque version doit suivre le format suivant :  
 
-## 02 — Included in this release  
+```markdown
+## vX.Y — [Date AAAA‑MM‑JJ]
+- Statut : [Stable / Beta / Expérimental]
+- Changements principaux :
+  - [Liste des modifications]
+- Modules concernés :
+  - [Miner / Validator / Corpus / Tests / Documentation]
+- Mainteneur : [Nom ou pseudonyme]
+```
 
-### ✔ Full modules  
-- **Module 01 — Questionnaire‑Test**  
-- **Module 02 — CATAR Corpus** (Markdown + PDF)  
-- **Module 03 — Knowledge Check**  
-- **Module 04 — Correction**  
-- **Module 05 — Report**  
-  - Results  
-  - Analysis  
-  - Passage History  
+## 03 — Versions actuelles
+v1.0 — 2026‑08‑18
+Statut : Stable
 
-### ✔ Documentation  
-- Multilingual root README (FR + EN + ES + CN)  
-- Module READMEs (01 → 05)  
-- Cycle‑CATAR.md (Passage logic)
+Changements principaux :
 
-### ✔ Passage structure  
-- Initial Test  
-- Corpus integration  
-- Knowledge Check  
-- Correction  
-- Analysis  
-- History  
-- Looping into a new Passage  
+Création du dépôt HuggingFace‑CATAR
 
-## 03 — Purpose of this version  
-- Provide a stable and usable base for the subnet  
-- Enable complete CATAR Passages  
-- Offer clear documentation for new users  
-- Prepare for future evolutions (v1.1, v2.0, etc.)
+Ajout des fichiers INSTALLATION.md, SECURITY.md, ECONOMY.md, GOVERNANCE.md, ROADMAP.md, CONTRIBUTING.md, CONTRIBUTOR.md
 
-## 04 — Next steps (planned)  
-- Add a **Passage Guide**  
-- Add a **CATAR Glossary**  
-- Add an **INSTALLATION.md**  
-- Begin translation of the Corpus  
-- Add diagrams and visual schemas  
-- Prepare an API / automated version
+Mise en place du Passage CATAR (modules 01 → 05)
 
----
+Documentation multilingue (FR/EN)
 
-# Fin / End of VERSION.md
+Modules concernés :
+
+Miner minimal viable
+
+Validator conceptuel
+
+Corpus CATAR
+
+Tests unitaires
+
+Mainteneur : QuatreCATAR
+
+## 04 — Versions à venir
+v1.1 — Prévision
+Statut : Beta
+
+Changements principaux :
+
+Ajout d’une interface CLI
+
+Amélioration des tests automatiques
+
+Documentation enrichie (glossaire, exemples)
+
+Modules concernés :
+
+Miner avancé
+
+Validator avancé
+
+Scripts Ubuntu
+
+v2.0 — Prévision
+Statut : Stable
+
+Changements principaux :
+
+Intégration API interne
+
+Interface utilisateur graphique (UI)
+
+Analyse hermétique avancée
+
+Modules concernés :
+
+Passage CATAR complet
+
+Historique des transmissions
+
+Visualisation des scores cognitifs
+
+## 05 — Vision long terme
+Le fichier VERSION.md est destiné à évoluer vers :
+
+un registre communautaire automatisé,
+
+une intégration CI/CD (GitHub Actions),
+
+une traçabilité académique et symbolique,
+
+une transmission du projet à la DAO ou à la fondation CATAR.
